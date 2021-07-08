@@ -37,7 +37,7 @@ body {
   width: 100%;
 }
 .live-search-wrapper .ls-container .demo-box .live-search-form .search {
-  display: block;
+  display: inline-block;
   width: 100%;
   background: #FFFFFF;
   border: 1px solid #000000;
@@ -50,9 +50,8 @@ body {
 .live-search-wrapper .ls-container .demo-box .live-search-form .search::placeholder {
   font-family: 'Zilla Slab', serif;
   color: #6E6E6E;
-  font-size: 20px;
+  font-size: 1.5em;
   font-weight: 500;
-  line-height: 10px;
   letter-spacing: 0.02em;
   text-align: left;
   z-index: 2;
