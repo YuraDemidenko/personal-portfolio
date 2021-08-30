@@ -1,0 +1,127 @@
+.client-container {
+  background-color: black;
+}
+.client-container .client .cinema-app-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #272727;
+}
+.client-container .client .cinema-app-header .cinema-app-nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 80px;
+}
+.client-container .client .cinema-app-header .cinema-app-nav-bar .genre-filter {
+  display: flex;
+  justify-content: flex-start;
+}
+.client-container .client .cinema-app-header .cinema-app-nav-bar .genre-filter .genre-filter-btn {
+  background: #4CD137;
+  padding: 8px 45px;
+  margin: 0 12px;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 31px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  transition: 0.2s;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+.client-container .client .cinema-app-header .cinema-app-nav-bar .genre-filter .genre-filter-btn:hover {
+  opacity: 0.7;
+}
+.client-container .client .cinema-app-header .cinema-app-nav-bar .movie-search {
+  position: relative;
+}
+.client-container .client .cinema-app-header .cinema-app-nav-bar .movie-search img {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+.client-container .client .cinema-app-header .cinema-app-nav-bar .movie-search .search {
+  border-radius: 10px;
+  background-color: #505050;
+  height: 48px;
+  width: 300px;
+  border: none;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 31px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  transition: 0.2s;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+.client-container .client .movie-promo {
+  padding-top: 90px;
+}
+.client-container .client .movie-promo .movie-list {
+  display: flex;
+  justify-content: center;
+}
+.client-container .client .movie-promo .movie-list .list-wrapper {
+  width: 1122px;
+  display: inline-block;
+  text-align: center;
+}
+.client-container .client .movie-promo .movie-list .list-wrapper .movie-list-title {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 113px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  margin: 40px 0 50px;
+}
+.client-container .client .movie-promo .movie-list .list-wrapper .promo-box {
+  margin: 0 25px 25px;
+  display: inline-block;
+}
+.client-container .client .movie-promo .movie-list .list-wrapper .promo-box .promo-title img {
+  width: 180px;
+  height: 270px;
+}
+.client-container .client .movie-promo .movie-list .list-wrapper .promo-box .promo-title p {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 31px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+.client-container .client .modal-container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease;
+}
+.client-container .client .modal-container.active {
+  opacity: 1;
+  visibility: visible;
+}
+.client-container .client .modal-container .overlay {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+}
