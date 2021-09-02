@@ -1,4 +1,9 @@
-.client-container {
+.client-container .client-page-bg {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   background-color: black;
 }
 .client-container .client .cinema-app-header {
@@ -7,6 +12,7 @@
   left: 0;
   right: 0;
   background: #272727;
+  z-index: 10;
 }
 .client-container .client .cinema-app-header .cinema-app-nav-bar {
   display: flex;
@@ -63,15 +69,15 @@
 }
 .client-container .client .movie-promo {
   padding-top: 90px;
+  position: absolute;
+  width: 100%;
 }
 .client-container .client .movie-promo .movie-list {
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 .client-container .client .movie-promo .movie-list .list-wrapper {
   width: 1122px;
   display: inline-block;
-  text-align: center;
 }
 .client-container .client .movie-promo .movie-list .list-wrapper .movie-list-title {
   font-family: 'Saira Extra Condensed', sans-serif;
